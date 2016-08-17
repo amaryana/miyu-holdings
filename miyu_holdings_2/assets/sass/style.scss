@@ -157,7 +157,7 @@ $iphone-width: 320px;
 
 .main-image {
   max-width: 200px;
-  @include ipad {
+  @include laptop {
     max-width: 150px;
     margin: 50px;
   }
@@ -182,7 +182,9 @@ $iphone-width: 320px;
     }
   }
 }
-
+.example {
+  padding: 30px;
+}
 /* Text colors */
 .text-white {
   color: $white
@@ -192,7 +194,7 @@ $iphone-width: 320px;
 .vertical-align {
   display: flex;
   align-items: center;
-  @include ipad {
+  @include laptop {
     display: block;
   }
 }

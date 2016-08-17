@@ -211,7 +211,7 @@
 .main-image {
   max-width: 200px;
 }
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   /* line 158, ../sass/style.scss */
   .main-image {
     max-width: 150px;
@@ -248,26 +248,31 @@
   }
 }
 
+/* line 185, ../sass/style.scss */
+.example {
+  padding: 30px;
+}
+
 /* Text colors */
-/* line 187, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .text-white {
   color: #fff;
 }
 
 /* Custom Presets */
-/* line 192, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 .vertical-align {
   display: flex;
   align-items: center;
 }
-@media (max-width: 767px) {
-  /* line 192, ../sass/style.scss */
+@media (max-width: 992px) {
+  /* line 194, ../sass/style.scss */
   .vertical-align {
     display: block;
   }
 }
 
-/* line 200, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .width-100 {
   width: 100%;
 }
